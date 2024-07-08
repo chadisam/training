@@ -9,3 +9,5 @@ function RenderStudents(){
       .then(response => response.json())
       .then(json => console.log(json))
 }
+
+RenderStudents();
